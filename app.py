@@ -1,13 +1,13 @@
-Upload PDFs:
+#Upload PDFs:
 
 import streamlit as st
 pdf = st.file_uploader("Upload PDF")
 
-Ask Questions:
+#Ask Questions:
 
 question = st.text_input("Ask Question")
 
-Generate Answers:
+#Generate Answers:
 if question:
     answer = rag_chain.invoke(question)
     st.write(answer)
