@@ -21,10 +21,11 @@ Build an AI chatbot that can:
 ✅ Answer questions from documents  
 ✅ Cite relevant sections  
 ✅ Support multiple PDFs
-📌 RAG Architecture*  
+
+📌 RAG Architecture
 PDF Upload → Text Extraction → Chunking → Embeddings → Vector Database → User Question → Similarity Search → Relevant Chunks → LLM → Final Answer
 
-📂 Project Structure*
+📂 Project Structure
 pdf-qa-chatbot/
 ├── documents/
 ├── vectordb/
