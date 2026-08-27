@@ -1,6 +1,7 @@
+from langchain_community.document_loaders import PyPDFLoader
 
-#Load PDF
-from langchain.document_loaders import PyPDFLoader
-
-loader = PyPDFLoader("document.pdf")
+loader=
+PyPDFLoader("document.pdf")
 documents = loader.load()
+
+
