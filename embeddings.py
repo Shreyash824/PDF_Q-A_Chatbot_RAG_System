@@ -1,7 +1,5 @@
 #Create Embeddings
 
-from langchain.embedding
-import OpenAIEmbeddings
+from langchain.embeddings import OpenAIEmbeddings
+
 embeddings = OpenAIEmbeddings()
-
-
