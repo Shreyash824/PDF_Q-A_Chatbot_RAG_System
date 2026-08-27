@@ -1,10 +1,3 @@
-#Load PDF*
-from langchain.document_loaders import PyPDFLoader
-
-loader=
-PyPDFLoader("document.pdf")
-documents = loader.load()
-
 #Search Relevant Chunks
 
 docs = db.similarity_search(question, k=3)
