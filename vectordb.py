@@ -1,4 +1,5 @@
 #Store in Vector Database
 
-from langchain.vectorstores 
-import Chromadb = Chroma.from_documents(chunks, embeddings)
+from langchain.vectorstores import Chroma
+
+db = Chroma.from_documents(chunks, embeddings)
